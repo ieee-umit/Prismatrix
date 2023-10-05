@@ -931,9 +931,6 @@ input {
     width: 220px;
     top: 3rem;
   }
-  .video__container {
-    grid-template-columns: .7fr;
-  }
   .video__description {
     padding: 0 8rem;
   }
