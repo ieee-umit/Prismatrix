@@ -414,6 +414,7 @@ input {
   background: none;
 }
 /*=============== TIMELINE ===============*/
+/*=============== TIMELINE ===============*/
 .timeline {
   position: relative;
   max-width: 800px;
@@ -426,7 +427,7 @@ input {
   position: relative;
   padding: 20px;
   margin: 20px 0;
-  background-color:white;
+  background-color:rgb(10, 103, 119);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-left: 3px solid #007BFF;
   border-radius: 5px;
@@ -436,7 +437,7 @@ input {
 .timeline-date {
   font-weight: bold;
   font-size: 1.2rem;
-  color: #007BFF;
+  color: #fbf8f8;
 }
 
 
@@ -466,7 +467,6 @@ input {
   transform: scale(1.02);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
-
 /*=============== ABOUT ===============*/
 .about__data {
   text-align: center;
