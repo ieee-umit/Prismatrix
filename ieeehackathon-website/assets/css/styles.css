@@ -1153,4 +1153,30 @@ input {
   .ag-courses-item_date-box {
     font-size: 16px;
   }
+}/* FAQ*/
+.faq {
+  margin-bottom: 20px;
+}
+
+.faq__question {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #179790;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  color: #333; 
+}
+
+.faq__answer {
+  display: none;
+  padding: 10px;
+  background-color: #2ca2af94;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: hsl(0, 26%, 5%); 
+}
+
+.faq__answer p {
+  margin: 0;
 }
