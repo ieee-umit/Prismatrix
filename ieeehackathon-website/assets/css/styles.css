@@ -1013,3 +1013,28 @@ input {
     height: 640px;
   }
 }
+/* FAQ*/
+.faq {
+  margin-bottom: 20px;
+}
+
+.faq__question {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #09504a;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.faq__answer {
+  display: none;
+  padding: 10px;
+  background-color: #08827a;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.faq__answer p {
+  margin: 0;
+}
