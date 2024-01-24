@@ -393,6 +393,7 @@ input {
   padding: 1rem 2rem;
   font-weight: var(--font-semi-bold);
   transition: .3s;
+  margin-bottom: 10px;
 }
 
 .button:hover {
