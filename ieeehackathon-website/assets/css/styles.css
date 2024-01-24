@@ -326,7 +326,7 @@ input {
 
 .home__data-title {
   font-size: var(--biggest-font-size);
-  font-weight: var(--font-medium);
+  font-weight: var(--font-semi-bold);
   margin-bottom: var(--mb-2-5);
 }
 
