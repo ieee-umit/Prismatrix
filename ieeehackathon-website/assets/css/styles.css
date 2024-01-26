@@ -601,16 +601,21 @@ section#timeline article:nth-child(5) div.inner h2:after {
   background: #9b59b6;
 }
 /*=============== ABOUT ===============*/
+  
+
 .about__data {
   text-align: center;
+  color: var(--white-color);
 }
 
 .about__container {
+  color: var(--white-color);
   row-gap: 2.5rem;
 }
 
 .about__description {
   margin-bottom: var(--mb-2);
+  color: var(--white-color);
 }
 
 .about__img {
