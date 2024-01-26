@@ -61,7 +61,7 @@
 
 @media screen and (min-width: 968px) {
   :root {
-    --biggest-font-size: 4rem;
+    --biggest-font-size: 5rem;
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.75rem;
     --h3-font-size: 1.25rem;
@@ -460,19 +460,19 @@ input {
 .button--link:hover {
   background: none;
 }
-/*=============== BG VIDEO ===============*/
-
 
 /*=============== TIMELINE ===============*/
 
 
-/* html, body {
+/*html, body {
   margin: 0;
   padding: 0;
-  font-family: Helvetica, sans-serif;
-} */
+  font-family: 'Yatra One', sans-serif;
+}
+*/
+
 body {
-  background: #000000 ;
+  background: #000000;
 }
 section#timeline {
   width: 80%;
@@ -509,7 +509,7 @@ section#timeline article div.inner {
 section#timeline article div.inner span.date {
   display: block;
   width: 60px;
-  height: 50px;
+  height: 60px;
   padding: 5px 0;
   position: absolute;
   top: 0;
@@ -520,7 +520,7 @@ section#timeline article div.inner span.date {
   font-weight: 900;
   text-transform: uppercase;
   background: #25303B;
-  color: rgba(255,255,255,0.5);
+  color: #fff;
   border: 2px solid rgba(255,255,255,0.2);
   box-shadow: 0 0 0 7px #25303B;
 }
@@ -532,7 +532,7 @@ section#timeline article div.inner span.date span.day {
   font-size: 10px;
 }
 section#timeline article div.inner span.date span.month {
-  font-size: 18px;
+  font-size: 13px;
 }
 section#timeline article div.inner span.date span.year {
   font-size: 10px;
@@ -552,8 +552,8 @@ section#timeline article div.inner h2:after {
   position: absolute;
   top: 20px;
   right: -5px;
-    width: 10px; 
-    height: 10px;
+  width: 10px; 
+  height: 10px;
   -webkit-transform: rotate(-45deg);
 }
 section#timeline article div.inner p {
@@ -599,6 +599,47 @@ section#timeline article:nth-child(5) div.inner h2 {
 }
 section#timeline article:nth-child(5) div.inner h2:after {
   background: #9b59b6;
+}
+/*=============== ABOUT ===============*/
+.about__data {
+  text-align: center;
+}
+
+.about__container {
+  row-gap: 2.5rem;
+}
+
+.about__description {
+  margin-bottom: var(--mb-2);
+}
+
+.about__img {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__img-overlay {
+  overflow: var(--img-hidden);
+}
+
+.about__img-one {
+  width: 130px;
+}
+
+.about__img-two {
+  width: 180px;
+}
+
+.about__img-one, 
+.about__img-two {
+  transition: var(--img-transition);
+}
+
+.about__img-one:hover, 
+.about__img-two:hover {
+  transform: var(--img-scale);
 }
 
 /*=============== DISCOVER ===============*/
@@ -1272,11 +1313,11 @@ section#timeline article:nth-child(5) div.inner h2:after {
 .faq__answer p {
   margin: 0;
 }
-/*footer*/
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Yatra One', sans-serif;
 }
 
 footer {
