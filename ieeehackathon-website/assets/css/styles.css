@@ -1375,7 +1375,7 @@ footer {
             display: flex;
             justify-content: space-around;
             align-items: center;
-            height: 100vh; /* Make the container cover the full viewport height */
+            height: 30vh; /* Make the container cover the full viewport height */
             overflow-x: hidden; /* Hide horizontal overflow */
             position: relative;
         }
@@ -1386,7 +1386,7 @@ footer {
             flex-direction: column;
             align-items: center;
             text-align: center;
-            padding: 20px;
+            padding: 69px;
             border: 2px solid #fff; /* Add a white border to enhance visibility */
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
