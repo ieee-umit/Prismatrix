@@ -203,7 +203,7 @@ input {
   color: var(--title-color);
   text-align: center;
   text-transform: capitalize;
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-1);
 }
 
 .container {
