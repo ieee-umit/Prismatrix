@@ -1276,19 +1276,19 @@ section#timeline article:nth-child(5) div.inner h2:after {
   cursor: pointer;
   font-weight: bold;
   padding: 10px;
-  background-color: #179790;
+  background-color: #312d3fa1;
   border-radius: 5px;
   margin-bottom: 5px;
-  color: #333; 
+  color: #fff8f8; 
 }
 
 .faq__answer {
   display: none;
   padding: 10px;
-  background-color: #2ca2af94;
+  background-color: #191c1c94;
   border: 1px solid #ddd;
   border-radius: 5px;
-  color: hsl(0, 26%, 5%); 
+  color: hsl(0, 0%, 100%); 
 }
 
 .faq__answer p {
