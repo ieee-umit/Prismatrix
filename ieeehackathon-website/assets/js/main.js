@@ -51,6 +51,53 @@ let swiper = new Swiper(".discover__container", {
     },
 })
 
+/*==================== COUNTDOWN ====================*/
+
+var days1 = document.getElementById('days')
+var hours1 = document.getElementById('hours')
+var minutes1 = document.getElementById('minutes')
+var seconds1 = document.getElementById('seconds')
+
+function countdownTimer() {
+    // Set the date we're counting down to
+    var countDownDate = new Date("Mar 23, 2024 10:00:00").getTime();
+    
+    // Update the count down every 1 second
+    const interval = setInterval(() => {
+        // Get today's date and time
+        const now = new Date().getTime();
+        
+        // Find the distance between now and the count down date
+        const distance = countDownDate - now;
+        
+        // Time calculations for days, hours, minutes and seconds
+        days1.innerText = formatNumber(Math.floor(distance / (1000 * 60 * 60 * 24)));
+        hours1.innerText = formatNumber(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
+        minutes1.innerText = formatNumber(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)));
+        seconds1.innerText = formatNumber(Math.floor((distance % (1000 * 60)) / 1000));
+        
+        //when date is reached
+        if (distance < 0) {
+            document.getElementById('headline').innerText='Registration has ended'
+            document.getElementById('countdown').style.display = 'none'
+            
+            //stop interval
+            clearInterval(interval)
+        }
+
+    }, 1000);
+}
+
+function formatNumber(number) {
+    if (number<10){
+        return '0'+number
+    }
+
+    return number
+}
+
+countdownTimer()
+
 /*==================== VIDEO ====================*/
 const videoFile = document.getElementById('video-file'),
       videoButton = document.getElementById('video-button'),
@@ -172,3 +219,6 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== PRIZES ====================*/ 
+
