@@ -629,9 +629,6 @@ section#timeline article:nth-child(5) div.inner h2:after {
   overflow: var(--img-hidden);
 }
 
-.about__img-one {
-  width: 130px;
-}
 
 .about__img-two {
   width: 180px;
