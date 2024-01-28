@@ -299,7 +299,7 @@ input {
 /* Change background header */
 .scroll-header {
   background-color: var(--body-color);
-  box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
+  box-shadow: 0 0 4px rgba(231, 237, 239, 0.15);
 }
 
 .scroll-header .nav__logo,
@@ -602,7 +602,9 @@ section#timeline article:nth-child(5) div.inner h2:after {
 }
 /*=============== ABOUT ===============*/
   
-
+.h2 {
+  color:white;
+}
 .about__data {
   text-align: center;
   color: var(--white-color);
