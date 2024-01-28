@@ -474,7 +474,7 @@ input {
 
 body {
   background: #000000 ;
-  background-image: -webkit-linear-gradient(black 20%,rgb(22, 4, 22),rgb(7, 7, 27),black,rgb(22, 4, 22),rgb(9, 9, 34),black);
+  background-image: -webkit-linear-gradient(black 20%,rgb(7, 7, 27),rgb(22, 4, 22),rgb(9, 9, 34),black,rgb(22, 4, 22),rgb(9, 9, 34),black);
 }
 section#timeline {
   width: 80%;
