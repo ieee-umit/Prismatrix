@@ -15,7 +15,7 @@
   --first-color: hsl(var(--hue-color), 64%, 22%);
   --first-color-second: hsl(var(--hue-color), 64%, 22%);
   --first-color-alt: hsl(var(--hue-color), 64%, 15%);
-  --title-color: hsl(var(--hue-color), 64%, 18%);
+  --title-color: hsl(var(--hue-color), 64%, 30%);
   --text-color: hsl(var(--hue-color), 24%, 35%);
   --text-color-light: hsl(var(--hue-color), 8%, 60%);
   --input-color: hsl(var(--hue-color), 24%, 97%);
@@ -196,6 +196,7 @@ input {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 4.5rem 0 2.5rem;
+  background-image: -webkit-linear-gradient(black,rgb(22, 4, 22),rgb(7, 7, 27),black);
 }
 
 .section__title {
@@ -473,6 +474,7 @@ input {
 
 body {
   background: #000000 ;
+  background-image: -webkit-linear-gradient(black 20%,rgb(7, 7, 27),rgb(22, 4, 22),rgb(9, 9, 34),black,rgb(22, 4, 22),rgb(9, 9, 34),black);
 }
 section#timeline {
   width: 80%;
@@ -631,9 +633,6 @@ section#timeline article:nth-child(5) div.inner h2:after {
   overflow: var(--img-hidden);
 }
 
-.about__img-one {
-  width: 130px;
-}
 
 .about__img-two {
   width: 180px;
@@ -1420,7 +1419,7 @@ footer {
 
         .winner-details p {
             margin: 0;
-            color: #777;
+            color: #000000;
         }
 
         /* Background colors */
