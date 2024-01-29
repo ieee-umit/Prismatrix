@@ -196,7 +196,7 @@ input {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 4.5rem 0 2.5rem;
-  background-image: -webkit-linear-gradient(black,rgb(22, 4, 22),rgb(7, 7, 27),black);
+  background-image: -webkit-linear-gradient(rgb(12, 12, 48),rgb(21, 4, 21),rgb(12, 12, 43),rgb(12, 12, 48));
 }
 
 .section__title {
@@ -474,7 +474,7 @@ input {
 
 body {
   background: #000000 ;
-  background-image: -webkit-linear-gradient(black 20%,rgb(7, 7, 27),rgb(22, 4, 22),rgb(9, 9, 34),black,rgb(22, 4, 22),rgb(9, 9, 34),black);
+  background-image:-webkit-linear-gradient(rgb(12, 12, 48) 30% ,rgb(37, 8, 37)45%,rgb(8, 8, 30)20%,rgb(12, 12, 48)20%);
 }
 section#timeline {
   width: 80%;
@@ -1422,11 +1422,13 @@ footer {
 
         /* Background colors */
         .bg-color-1 {
-            background-color: #FF69B4; /* Pink color, you can customize */
+          background: rgb(78,199,204);
+          background: radial-gradient(circle, rgba(78,199,204,1) 0%, rgba(83,53,192,1) 100%);
         }
 
         .bg-color-2 {
-            background-color: #FFD700; /* Gold color, you can customize */
+          background: rgb(228,238,174);
+          background: radial-gradient(circle, rgba(228,238,174,1) 0%, rgba(148,233,169,1) 100%);
         }
 
         .bg-color-3 {
