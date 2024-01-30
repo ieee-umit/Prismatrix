@@ -15,7 +15,7 @@
   --first-color: hsl(var(--hue-color), 64%, 22%);
   --first-color-second: hsl(var(--hue-color), 64%, 22%);
   --first-color-alt: hsl(var(--hue-color), 64%, 15%);
-  --title-color: hsl(var(--hue-color), 64%, 18%);
+  --title-color: hsl(var(--hue-color), 64%, 30%);
   --text-color: hsl(var(--hue-color), 24%, 35%);
   --text-color-light: hsl(var(--hue-color), 8%, 60%);
   --input-color: hsl(var(--hue-color), 24%, 97%);
@@ -196,6 +196,7 @@ input {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 4.5rem 0 2.5rem;
+  background-image: -webkit-linear-gradient(black,rgb(22, 4, 22),rgb(7, 7, 27),black);
 }
 
 .section__title {
@@ -203,7 +204,7 @@ input {
   color: var(--title-color);
   text-align: center;
   text-transform: capitalize;
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-1);
 }
 
 .container {
@@ -619,9 +620,6 @@ body {
   overflow: var(--img-hidden);
 }
 
-.about__img-one {
-  width: 130px;
-}
 
 .about__img-two {
   width: 180px;
@@ -1266,19 +1264,19 @@ body {
   cursor: pointer;
   font-weight: bold;
   padding: 10px;
-  background-color: #179790;
+  background-color: #312d3fa1;
   border-radius: 5px;
   margin-bottom: 5px;
-  color: #333; 
+  color: #fff8f8; 
 }
 
 .faq__answer {
   display: none;
   padding: 10px;
-  background-color: #2ca2af94;
+  background-color: #191c1c94;
   border: 1px solid #ddd;
   border-radius: 5px;
-  color: hsl(0, 26%, 5%); 
+  color: hsl(0, 0%, 100%); 
 }
 
 .faq__answer p {
@@ -1340,7 +1338,7 @@ footer {
             display: flex;
             justify-content: space-around;
             align-items: center;
-            height: 100vh; /* Make the container cover the full viewport height */
+            height: 30vh; /* Make the container cover the full viewport height */
             overflow-x: hidden; /* Hide horizontal overflow */
             position: relative;
         }
@@ -1351,7 +1349,7 @@ footer {
             flex-direction: column;
             align-items: center;
             text-align: center;
-            padding: 20px;
+            padding: 69px;
             border: 2px solid #fff; /* Add a white border to enhance visibility */
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -1408,7 +1406,7 @@ footer {
 
         .winner-details p {
             margin: 0;
-            color: #777;
+            color: #000000;
         }
 
         /* Background colors */

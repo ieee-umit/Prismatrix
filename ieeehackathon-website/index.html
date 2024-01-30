@@ -36,13 +36,13 @@
               <a href="#about" class="nav__link">About</a>
             </li>
             <li class="nav__item">
+              <a href="#timeline" class="nav__link">Timeline</a>
+            </li>
+            <li class="nav__item">
               <a href="#tracks" class="nav__link">Tracks</a>
             </li>
             <li class="nav__item">
               <a href="#prizes" class="nav__link">Prizes</a>
-            </li>
-            <li class="nav__item">
-              <a href="#timeline" class="nav__link">Timeline</a>
             </li>
             <li class="nav__item">
               <a href="#sponsors" class="nav__link">Sponsors</a>
@@ -136,7 +136,7 @@
         <div class="about__container container grid">
           <div class="about__data">
             <h2 class="section__title about__title">
-              About Us
+              ABOUT US
             </h2>
             <p class="about__description">
                     <b>Prismatrix</b>, the hackathon hosted by <b>IEEE UMIT</b> at the Usha Mittal Institute of Technology, stands as a vibrant celebration of innovation and collaboration. Drawing inspiration from the powerful symbolism inherent in its name, Prismatrix mirrors the way a prism refracts light into a spectrum of colors.<br/>
@@ -145,12 +145,9 @@
           </div>
 
           <div class="about__img">
-            <div class="about__img-overlay">
-              <img src="assets/img/Prism1.jpeg" alt="" class="about__img-one" />
-            </div>
 
             <div class="about__img-overlay">
-              <img src="assets/img/Prism2.jpeg" alt="" class="about__img-two" />
+              <img src="assets/img/1.png" alt="" class="about__img-two" />
             </div>
           </div>
         </div>
@@ -282,68 +279,63 @@
       </section>
    
     <!--prize-->
-      
-            <div class="winners-container" id="prizes">
-                <div class="winner-card bg-color-1" id="winner1">
-                    <div class="inner">
-                        <div class="front" onclick="announcePrize('Winner 1', '$100 Gift Card')">
-                            <div class="winner-image">
-                                <img src="winner1.jpg" alt="Winner 1">
-                            </div>
-                            <div class="winner-details">
-                                <h2>Winner 1</h2>
-                                <p>Click to reveal prize</p>
-                            </div>
-                        </div>
-                        <div class="back">
-                            <div class="winner-details">
-                                <h2>Winner 1</h2>
-                                <p>Prize: $100 Gift Card</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="winner-card bg-color-2" id="winner2">
-                    <div class="inner">
-                        <div class="front" onclick="announcePrize('Winner 2', 'Weekend Getaway')">
-                            <div class="winner-image">
-                                <img src="winner2.jpg" alt="Winner 2">
-                            </div>
-                            <div class="winner-details">
-                                <h2>Winner 2</h2>
-                                <p>Click to reveal prize</p>
-                            </div>
-                        </div>
-                        <div class="back">
-                            <div class="winner-details">
-                                <h2>Winner 2</h2>
-                                <p>Prize: Weekend Getaway</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="winner-card bg-color-3" id="winner3">
-                    <div class="inner">
-                        <div class="front" onclick="announcePrize('Winner 3', 'Tech Gadgets')">
-                            <div class="winner-image">
-                                <img src="winner3.jpg" alt="Winner 3">
-                            </div>
-                            <div class="winner-details">
-                                <h2>Winner 3</h2>
-                                <p>Click to reveal prize</p>
-                            </div>
-                        </div>
-                        <div class="back">
-                            <div class="winner-details">
-                                <h2>Winner 3</h2>
-                                <p>Prize: Tech Gadgets</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-      </section>
+    <h2 class="section__title">PRIZES</h2>
+    <div class="winners-container" id="prizes">
+      <div class="winner-card bg-color-1" id="winner1">
+          <div class="inner">
+              <div class="front" onclick="announcePrize('Winner 1', '$100 Gift Card')">
+                  <div class="winner-details">
+                      <h2>Winner 1</h2>
+                      <p>Click to reveal prize</p>
+                  </div>
+              </div>
+              <div class="back">
+                  <div class="winner-details">
+                      <h2>Winner 1</h2>
+                      <p>Prize: $100 Gift Card</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="winner-card bg-color-2" id="winner2">
+          <div class="inner">
+              <div class="front" onclick="announcePrize('Winner 2', 'Weekend Getaway')">
+                  <div class="winner-details">
+                      <h2>Winner 2</h2>
+                      <p>Click to reveal prize</p>
+                  </div>
+              </div>
+              <div class="back">
+                  <div class="winner-details">
+                      <h2>Winner 2</h2>
+                      <p>Prize: Weekend Getaway</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="winner-card bg-color-3" id="winner3">
+          <div class="inner">
+              <div class="front" onclick="announcePrize('Winner 3', 'Tech Gadgets')">
+                  <div class="winner-details">
+                      <h2>Winner 3</h2>
+                      <p>Click to reveal prize</p>
+                  </div>
+              </div>
+              <div class="back">
+                  <div class="winner-details">
+                      <h2>Winner 3</h2>
+                      <p>Prize: Tech Gadgets</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <script>
+      function announcePrize(winnerName, prize) {
+          alert(`Congratulations, ${winnerName}! You've won ${prize}`);
+      }
+  </script>
 
 <!--==================== PLACES ====================-->
       <section class="place section" id="sponsors">
