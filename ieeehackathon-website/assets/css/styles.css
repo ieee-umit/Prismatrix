@@ -456,9 +456,7 @@ body {
   justify-content: center;
 
 }
-.outer{
-  border: 2px solig green;
-}
+
 /* Timeline Container */
 .timeline {
   width: 600px;
@@ -489,6 +487,9 @@ body {
   position: absolute;
   width: 50%;
   border: solid rgb(160, 244, 139);
+}
+.pad{
+ padding-left: 180px;
 }
 
 /* Setting the border of top, bottom, left */
