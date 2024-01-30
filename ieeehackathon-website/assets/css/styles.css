@@ -82,29 +82,6 @@ body.dark-theme {
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
 
-/*========== Button Dark/Light ==========*/
-.nav__dark {
-  display: flex;
-  align-items: center;
-  column-gap: 2rem;
-  position: absolute;
-  left: 3rem;
-  bottom: 4rem;
-}
-
-.change-theme, .change-theme-name {
-  color: var(--text-color);
-}
-
-.change-theme {
-  cursor: pointer;
-  font-size: 1rem;
-}
-
-.change-theme-name {
-  font-size: var(--small-font-size);
-}
-
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;
@@ -479,7 +456,9 @@ body {
   justify-content: center;
 
 }
-
+.outer{
+  border: 2px solig green;
+}
 /* Timeline Container */
 .timeline {
   width: 600px;
