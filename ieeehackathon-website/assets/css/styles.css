@@ -509,7 +509,7 @@ body {
   content: "";
   position: absolute;
   width: 50%;
-  border: solid orangered;
+  border: solid rgb(160, 244, 139);
 }
 
 /* Setting the border of top, bottom, left */
@@ -568,7 +568,7 @@ body {
 
 /* Title of the card */
 .title {
-  color: orangered;
+  color: rgb(81, 220, 230);
   position: relative;
 }
 
@@ -580,7 +580,7 @@ body {
   height: 10px;
   background: white;
   border-radius: 999px;
-  border: 3px solid orangered;
+  border: 3px solid rgb(18, 103, 56);
 }
 
 /* text right if the card is even  */
@@ -1418,16 +1418,17 @@ footer {
 
         /* Background colors */
         .bg-color-1 {
-          background: rgb(78,199,204);
-          background: radial-gradient(circle, rgba(78,199,204,1) 0%, rgba(83,53,192,1) 100%);
+          background: rgb(180,58,169);
+background: linear-gradient(90deg, rgba(180,58,169,1) 0%, rgba(190,101,195,0.9025735294117647) 50%, rgba(124,90,220,1) 100%);
         }
 
-        .bg-color-2 {
-          background: rgb(228,238,174);
-          background: radial-gradient(circle, rgba(228,238,174,1) 0%, rgba(148,233,169,1) 100%);
-        }
+         .bg-color-2 {
+          background: rgb(58,180,154);
+          background: linear-gradient(90deg, rgba(58,180,154,1) 0%, rgba(118,222,249,0.9025735294117647) 50%, rgba(144,111,237,1) 100%);
+        } 
 
         .bg-color-3 {
-            background-color: #00CED1; /* Dark Turquoise color, you can customize */
+          background: rgb(79,195,114);
+          background: linear-gradient(90deg, rgba(79,195,114,1) 0%, rgba(148,237,225,0.9025735294117647) 50%, rgba(130,207,123,1) 100%);
         }
   
