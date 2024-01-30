@@ -464,15 +464,12 @@ input {
 
 /*=============== TIMELINE ===============*/
 
-
-/*html, body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Yatra One', sans-serif;
-}
-*/
-
 body {
+
+  font-family: var(--font);
+  display: flex;
+  justify-content: center;
+
   background: #000000 ;
   background: -webkit-linear-gradient(rgb(12, 12, 48)25%,rgb(21, 4, 21),rgb(12, 12, 43),rgb(12, 12, 48),rgb(21, 4, 21));
 };
@@ -481,10 +478,9 @@ body {
   display: flex;
   justify-content: center;
 
-  
 }
 .outer{
-  border: 2px solid green;
+  border: 2px solig green;
 }
 /* Timeline Container */
 .timeline {
@@ -603,6 +599,7 @@ body {
 .card:nth-child(even) > .info > .title::before {
   right: -45px;
 }
+
 /*=============== ABOUT ===============*/
   
 
