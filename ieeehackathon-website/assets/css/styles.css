@@ -456,7 +456,7 @@ body {
 
 h1 {
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font: 'Yatra one';
 }
 
 .timeline {
@@ -469,7 +469,7 @@ h1 {
     content: '';
     position: absolute;
     height: 100%;
-    border: 1px solid hotpink;
+    border: 1px solid rgb(28, 59, 25);
     right: 40px;
     top: 0;
   }
@@ -492,8 +492,8 @@ h1 {
 .timeline__item {
   
   padding: 1rem;
-  border: 2px solid hotpink;
-  border-image: linear-gradient(to right, skyblue 0%, hotpink 100%);
+  border: 2px solid rgb(28, 59, 25);
+  border-image: linear-gradient(to right, rgb(65, 168, 112) 0%, rgb(173, 77, 77) 100%);
   border-image-slice: 1;
   position: relative;
   margin: 1rem 3rem 1rem 1rem;
@@ -509,7 +509,7 @@ h1 {
     right: -10px;
     top: calc(50% - 5px);
     border-style: solid;
-    border-color: hotpink hotpink transparent transparent;
+    border-color: rgb(218, 74, 74) rgba(255, 105, 105, 0.363) transparent transparent;
     border-width: 10px;
     transform: rotate(45deg);
   }
@@ -521,13 +521,13 @@ h1 {
     &:nth-of-type(2n) {
       float: right;
       margin: 1rem;
-      border-image: linear-gradient(to right, hotpink 0%, skyblue 100%);
+      border-image: linear-gradient(to right, rgb(65, 168, 112) 0%, rgb(173, 77, 77) 100%);
       border-image-slice: 1;
 
       &:before {
         right: auto;
         left: -10px;
-      border-color:transparent transparent hotpink hotpink;
+      border-color:transparent transparent rgba(255, 105, 105, 0.363)rgb(218, 74, 74) ;
       }
     }
   }
@@ -537,8 +537,9 @@ h1 {
     text-align: center;
   max-width: 150px;
   margin: 0 48px 0 auto;
-  font-size: 1.8rem;
-  background-color: #333;
+  font-size: 1.3rem;
+  color: #b7c2b7;
+  background-color: rgb(33, 15, 39);
   line-height: 1;
   border-image: none;
   padding: .5rem 1rem 1rem;
@@ -565,8 +566,9 @@ h1 {
 
 .timeline__title {
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Yatra one', sans-serif ;
   font-size: 1.5em;
+  color: #2a9641;
 }
 
 .timeline__blurb {
@@ -1372,6 +1374,7 @@ footer {
         .back {
             transform: rotateY(180deg); /* Initially rotate the back face */
             background-color: #FFD700; /* Gold color for the back face */
+          
         }
 
         .winner-image img {
