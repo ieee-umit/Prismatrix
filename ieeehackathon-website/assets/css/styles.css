@@ -439,6 +439,13 @@ input {
   background: none;
 }
 
+.button-img{
+  width: 110px;
+  height: auto;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
 /*=============== TIMELINE ===============*/
 
 body {
