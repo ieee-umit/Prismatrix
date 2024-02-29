@@ -411,8 +411,9 @@ input {
 
 .button {
   display: inline-block;
-  background-color: var(--first-color);
-  color: var(--white-color);
+  background-color: white;
+  color: black;
+  font: optional;
   padding: 1rem 2rem;
   font-weight: var(--font-semi-bold);
   transition: .3s;
@@ -421,7 +422,7 @@ input {
 }
 
 .button:hover {
-  background-color: var(--first-color-alt);
+  background-color: gray;
 }
 
 .button--flex {
@@ -443,7 +444,13 @@ input {
   width: 20px;
   height: auto;
   margin-top: -5px;
-  margin-bottom: -4.5px;
+  margin-bottom: -4.4px;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 /*=============== TIMELINE ===============*/
