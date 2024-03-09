@@ -1449,3 +1449,62 @@ background: linear-gradient(90deg, rgba(180,58,169,1) 0%, rgba(190,101,195,0.902
       width: 45%; /* Restore width for larger screens */
   }
 }
+/* Container for sponsors section */
+.about.prizes {
+  padding: 20px;
+}
+
+/* Title */
+.section__title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Sponsors container */
+.sponsors-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Sponsor cards */
+.sponsor-card {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(58, 14, 54, 0.842);
+  transition: transform 0.3s ease;
+}
+
+.sponsor-card:hover {
+  transform: scale(1.05);
+}
+
+/* Sponsor details */
+.sponsor-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Sponsor logos */
+.sponsor-details img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .sponsors-container {
+    flex-wrap: wrap;
+  }
+  
+  .sponsor-card {
+    margin-bottom: 20px;
+  }
+}
+
