@@ -1334,13 +1334,15 @@ footer {
         
 
         .winners-container {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+    
             height: 30vh; /* Make the container cover the full viewport height */
             overflow-x: hidden; /* Hide horizontal overflow */
             position: relative;
         }
+      
 
         /* Style individual winner cards */
         .winner-card {
