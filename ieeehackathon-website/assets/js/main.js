@@ -60,7 +60,7 @@ var seconds1 = document.getElementById('seconds')
 
 function countdownTimer() {
     // Set the date we're counting down to
-    var countDownDate = new Date("Apr 02, 2024 10:00:00").getTime();
+    var countDownDate = new Date("Apr 02, 2024 00:00:00").getTime();
     
     // Update the count down every 1 second
     const interval = setInterval(() => {
